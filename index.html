@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>YOMIKATA – Jilid 1 Blok 1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  background: #eee;
+  margin: 0;
+  padding: 20px;
+  font-family: serif;
+}
+
+.book-page {
+  display: none;
+}
+
+.book-page.active {
+  display: block;
+}
+
+.page {
+  max-width: 420px;
+  margin: auto;
+  background: #fff;
+  border: 3px solid #000;
+  padding: 15px 10px;
+}
+
+.header {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.main {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  padding: 20px 0 10px;
+  text-align: center;
+}
+
+.main .jp {
+  font-size: 60px;
+  letter-spacing: 10px;
+}
+
+.main .latin {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.practice {
+  border-bottom: 1px solid #000;
+  padding: 18px 10px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+}
+
+.big-box {
+  border: 2px solid #000;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.big-box .row {
+  font-size: 32px;
+  margin: 5px 0;
+}
+
+.nav {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.nav button {
+  font-size: 16px;
+  padding: 8px 16px;
+  margin: 0 5px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="book-page active">
+  <div class="page">
+    <div class="header">YOMIKATA — Jilid 1 | Halaman 1</div>
+    <div class="main">
+  <div class="jp hira">あ　い</div>
+  <div class="jp kata">ア　イ</div>
+  <div class="latin">(A I)</div>
+</div>
+
+    <div class="practice"><span>あ</span><span>い</span><span>あ</span></div>
+    <div class="practice"><span>い</span><span>ア</span><span>い</span></div>
+    <div class="practice"><span>ア</span><span>あ</span><span>イ</span></div>
+    <div class="practice"><span>イ</span><span>い</span><span>あ</span></div>
+    <div class="practice"><span>あ</span><span>ア</span><span>い</span></div>
+    <div class="practice"><span>イ</span><span>あ</span><span>ア</span></div>
+    <div class="practice"><span>い</span><span>イ</span><span>あ</span></div>
+    <div class="practice"><span>ア</span><span>い</span><span>イ</span></div>
+
+    <div class="big-box">
+      <div class="row">あ い</div>
+      <div class="row">ア イ</div>
+    </div>
+  </div>
+</div>
+
+<div class="book-page">
+  <div class="page">
+    <div class="header">YOMIKATA — Jilid 1 | Halaman 2</div>
+    <div class="main">
+      <div class="jp hira">う  え </div>
+      <div class="jp kata">ウ  エ</div>
+      <div class="latin">(U E)</div>
+    </div>
+
+    <div class="practice"><span>う</span><span>え</span><span>ウ</span></div>
+    <div class="practice"><span>エ</span><span>う</span><span>え</span></div>
+    <div class="practice"><span>え</span><span>ウ</span><span>う</span></div>
+    <div class="practice"><span>ウ</span><span>え</span><span>エ</span></div>
+    <div class="practice"><span>う</span><span>エ</span><span>え</span></div>
+    <div class="practice"><span>え</span><span>う</span><span>ウ</span></div>
+    <div class="practice"><span>エ</span><span>え</span><span>う</span></div>
+    <div class="practice"><span>ウ</span><span>エ</span><span>え</span></div>
+
+    <div class="big-box">
+      <div class="row">あ い う え</div>
+      <div class="row">ア イ ウ エ</div>
+    </div>
+  </div>
+</div>
+
+<div class="book-page">
+  <div class="page">
+    <div class="header">YOMIKATA — Jilid 1 | Halaman 3</div>
+    <div class="main">
+      <div class="jp">お オ</div>
+      <div class="latin">(O)</div>
+    </div>
+
+    <div class="practice"><span>お</span><span>オ</span><span>あ</span></div>
+    <div class="practice"><span>い</span><span>お</span><span>ウ</span></div>
+    <div class="practice"><span>エ</span><span>う</span><span>お</span></div>
+    <div class="practice"><span>オ</span><span>え</span><span>い</span></div>
+    <div class="practice"><span>あ</span><span>お</span><span>ア</span></div>
+    <div class="practice"><span>え</span><span>オ</span><span>う</span></div>
+    <div class="practice"><span>い</span><span>エ</span><span>お</span></div>
+    <div class="practice"><span>オ</span><span>あ</span><span>え</span></div>
+
+    <div class="big-box">
+      <div class="row">あ い う え お</div>
+      <div class="row">ア イ ウ エ オ</div>
+    </div>
+  </div>
+</div>
+
+<div class="book-page">
+  <div class="page">
+    <div class="header">YOMIKATA — Jilid 1 | Halaman 4 (Pengayaan)</div>
+    <div class="practice"><span>あ</span><span>イ</span><span>う</span></div>
+    <div class="practice"><span>エ</span><span>あ</span><span>オ</span></div>
+    <div class="practice"><span>い</span><span>ウ</span><span>え</span></div>
+    <div class="practice"><span>ア</span><span>お</span><span>イ</span></div>
+    <div class="practice"><span>う</span><span>エ</span><span>あ</span></div>
+    <div class="practice"><span>オ</span><span>い</span><span>ウ</span></div>
+    <div class="practice"><span>え</span><span>ア</span><span>お</span></div>
+    <div class="practice"><span>イ</span><span>う</span><span>エ</span></div>
+  </div>
+</div>
+
+<div class="book-page">
+  <div class="page">
+    <div class="header">YOMIKATA — Jilid 1 | Halaman 5 (Pengayaan)</div>
+    <div class="practice"><span>ウ</span><span>あ</span><span>え</span></div>
+    <div class="practice"><span>い</span><span>オ</span><span>う</span></div>
+    <div class="practice"><span>エ</span><span>い</span><span>ア</span></div>
+    <div class="practice"><span>お</span><span>ウ</span><span>え</span></div>
+    <div class="practice"><span>ア</span><span>う</span><span>い</span></div>
+    <div class="practice"><span>え</span><span>オ</span><span>あ</span></div>
+    <div class="practice"><span>い</span><span>エ</span><span>お</span></div>
+    <div class="practice"><span>ウ</span><span>あ</span><span>イ</span></div>
+  </div>
+</div>
+
+<div class="nav">
+  <button id="prevBtn" onclick="prevPage()">◀ Prev</button>
+  <button id="nextBtn" onclick="nextPage()">Next ▶</button>
+</div>
+
+<script>
+let current = 0;
+const pages = document.querySelectorAll('.book-page');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+
+function showPage(index) {
+  pages.forEach(p => p.classList.remove('active'));
+  pages[index].classList.add('active');
+
+  prevBtn.style.display = (index === 0) ? 'none' : 'inline-block';
+  nextBtn.style.display = (index === pages.length - 1) ? 'none' : 'inline-block';
+}
+
+function nextPage() {
+  if (current < pages.length - 1) {
+    current++;
+    showPage(current);
+  }
+}
+
+function prevPage() {
+  if (current > 0) {
+    current--;
+    showPage(current);
+  }
+}
+
+showPage(current);
+</script>
+
+</body>
+</html>
